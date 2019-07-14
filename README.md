@@ -91,7 +91,9 @@ insti_type:指定机构类型，0全部、1基金、2QFII、3社保、5保险、
 ## 沪深港股通交易数据
 
 ### cf.hgst_detail(code, date, start_date, end_date)
-沪深港通交易数据详细
+指定个股code，获取该股的沪深港通交易数据详细
 
 ### cf.hgst_stats(code, lang)
-沪深港通交易数据统计
+指定个股code，获取该股的沪深港通交易数据统计
+
+
