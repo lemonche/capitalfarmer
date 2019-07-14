@@ -57,3 +57,41 @@ insti_type:指定机构类型，0全部、1基金、2QFII、3社保、5保险、
 
 ## 龙虎榜
 
+### cf.longhu_detail(date, start_date, end_date, lang)
+获取指定日期，或者指定日期区间内，龙虎榜数据
+
+### cf.longhu_stock_stats(date, start_date, end_date, lang)
+获取指定日期，或者指定日期区间内，根据stock统计龙虎榜的数据
+
+### cf.longhu_insti_stats(date, start_date, end_date, lang)
+获取指定日期，或者指定日期区间内，根据institutional统计龙虎榜的数据
+
+## 证券营业部交易数据
+
+### cf.active_business_dept(date, start_date, end_date, lang)
+获取活跃营业部交易数据
+
+### cf.insti_chair_track(date, start_date, end_date, lang)
+追踪机构席位的交易数据
+
+### cf.business_dept_stats(date, start_date, end_date, lang)
+营业部交易统计
+
+### cf.business_dept_ranking(date, start_date, end_date, lang)
+营业部排序
+
+### cf.business_dept_detail(sale_code, date, start_date, end_date, lang)
+营业部交易数据详细
+
+## 融资融券交易数据
+
+### cf.hist_margin_trade(code, lang)
+融资融券交易数据
+
+## 沪深港股通交易数据
+
+### cf.hgst_detail(code, date, start_date, end_date)
+沪深港通交易数据详细
+
+### cf.hgst_stats(code, lang)
+沪深港通交易数据统计
