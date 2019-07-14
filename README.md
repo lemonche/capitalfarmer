@@ -88,12 +88,25 @@ insti_type:指定机构类型，0全部、1基金、2QFII、3社保、5保险、
 ### cf.hist_margin_trade(code, lang)
 融资融券交易数据
 
+### cf.margin_trade_detail(date, lang)
+当日融资融券的交易数据
+
 ## 沪深港股通交易数据
 
-### cf.hgst_detail(code, date, start_date, end_date)
+### cf.hgst_stock_detail(code, date, start_date, end_date)
 指定个股code，获取该股的沪深港通交易数据详细
 
-### cf.hgst_stats(code, lang)
+### cf.hgst_stock_stats(code, lang)
 指定个股code，获取该股的沪深港通交易数据统计
+
+### cf.hgst_hist_ns_money(date, start_date, end_date, lang)
+北向资金、南向的历史资金数据
+
+### cf.hgst.ns_money(lang)
+获取当日北向资金、南向资金数据
+
+### cf.hgst_hist_detail(market, lang)
+沪深港通的市场数据
+
 
 
